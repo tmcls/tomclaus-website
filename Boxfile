@@ -1,0 +1,8 @@
+web1:
+  name: CroqMedia 01
+  php_display_errors: "0"
+  php_date_timezone: Europe/Brussels
+  php_default_locale: "nl_NL"
+  php_extensions:
+    - mysql
+    - curl

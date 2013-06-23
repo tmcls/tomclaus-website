@@ -1,0 +1,66 @@
+{
+	"notes" : {
+		"note" : [
+			{
+				"title"       : "Learned a new language <br /><span>1990</span>",
+				"date"        : "1990/12/12 00:00:00",
+				"description" : "When I was 2 years old, i decided it was time to learn a new language; Dutch."
+			},
+			{
+				"title"       : "First bike ride <br /><span>1992</span>",
+				"date"        : "1992/01/01 00:00:00",
+				"description" : "Time to ride my first vehicle... my bike!"
+			},
+			{
+				"title"       : "My first internet experience <br /><span>1998</span>",
+				"date"        : "1998/01/01 00:00:00",
+				"description" : "In 1998 I was introduced to ICQ and the world of dial up. I loved that noise it made..."
+			},
+			{
+				"title"       : "Organising first LAN Party <br /><span>2003</span>",
+				"date"        : "2003/01/01 00:00:00",
+				"description" : "Organising the first of our many LAN parties"
+			},	
+			{
+				"title"       : "First girlfriend (YES!) <br /><span>2005</span>",
+				"date"        : "2005/11/01 00:00:00",
+				"description" : "I thought I was doomed..."
+			},	
+			{
+				"title"       : "Graduated from highschool <br /><span>2000 - 2006</span>",
+				"date"        : "2006/06/30 00:00:00",
+				"description" : "It was about time too... School wasn't exactly my 'glory days'."
+			},		
+			{
+				"title"       : "Car Salesman weekend job <br /><span>2007 - 2009</span>",
+				"date"        : "2007/02/01 00:00:00",
+				"description" : "Started as a car salesman at Garage Beckers as a weekend job."
+			},		
+			{
+				"title"       : "Graduated from university <br /><span>2006 - 2009</span>",
+				"date"        : "2009/06/20 00:00:00",
+				"description" : "Yes, I have my diploma in the Applied Informatics!"
+			},
+			{
+				"title"       : "First employment <br /><span>2009</span>",
+				"date"        : "2009/09/01 00:00:00",
+				"description" : "In 2006 had my first job as Web Architect at Inventis."
+			},			
+			{
+				"title"       : "Freelancer! <br /><span>2012</span>",
+				"date"        : "2012/01/01 00:00:00",
+				"description" : "Started as a sideline freelancer under the name CroqMedia."
+			},	
+			{
+				"title"       : "Technology Evangelist <br /><span>2012</span>",
+				"date"        : "2012/07/16 00:00:00",
+				"description" : "In 2012 I decided to make a career switch to Technology Evangelist at Mobile Vikings"
+			},
+			{
+				"title"       : "Travel <br /><span>2013</span>",
+				"date"        : "2013/03/20 00:00:00",
+				"description" : "In march 2013, I grab a rucksack, my girlfriend and take myself to the other side of the planet, the USA."
+			}							
+		]
+	}
+}

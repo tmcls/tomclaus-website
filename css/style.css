@@ -681,7 +681,9 @@ body{
 .social-icons li.facebook a{
 	background: url(../images/icon-facebook.png) center center no-repeat #4a6ea9;
 }
-
+.social-icons li.googleplus a{
+	background: url(../images/icon-googleplus.png) center center no-repeat #de4b39;
+}
 
 /* - 0.0. - TYPOGRAPHY
 ------------------------------------------ */

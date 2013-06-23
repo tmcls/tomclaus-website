@@ -1,4 +1,12 @@
-/* Big Top Avatar */
+/* 
+	Website Name: Claws - Tom Claus	
+	Website URL: http://tomclaus.be - http://claws.be;
+	Author: Tom Claus
+	Author URI: http://tomclaus.be
+	Version: 1.0
+*/
+
+/* My fancy Avatar */
 $(document).ready(function() {		
 	$(".avatar-wink").hover(
 		function(){hover=true;},
@@ -40,28 +48,6 @@ function openEyes(){
 	}
 	setTimeout('closeEyes()',6000);
 }
-
-
-/* Input Helpers */
-$(document).ready(function(){	
-	$('input, textarea').focus(function(){
-	    var elm = $(this),
-	        value = elm.val(),
-	        old = elm.data("placeholder");       
-	    if (typeof old === "undefined"){
-	        elm.data("placeholder", value);
-	        old = value;
-	    }
-	    if (old == value){
-	        elm.val("");
-	    }
-	}).blur(function() {
-	    var elm = $(this);
-	    if(elm.val() == ""){
-	        elm.val(elm.data("placeholder"));
-	    }
-	});
-});
 
 /* Smooth Scoll */
 $(function(){

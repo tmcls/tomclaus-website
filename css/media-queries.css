@@ -1,9 +1,12 @@
-/* - MOBILE STYLES
----------------------------------------------- */
+/* 
+	Website Name: Claws - Tom Claus	
+	Website URL: http://tomclaus.be - http://claws.be;
+	Author: Tom Claus
+	Author URI: http://tomclaus.be
+	Version: 1.0
+*/
 
-
-
-/* 4.Tablet landscape / low resolution */
+/* Tablet landscape / low resolution */
 @media only screen and (min-width: 870px) and (max-width: 1170px){
 
 	.constraint{width:870px;}
@@ -21,7 +24,6 @@
 	#about .life-stats .days,
 	#about .life-stats .percentage{font-size:2.5em;}
 
-
 	#header .tweet-speech{width:34em;right:-37em;}
 
 	article h1.blog-title{font-size:3em;}
@@ -30,7 +32,7 @@
 
 
 
-/* 2. Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 570px) and (max-width: 869px){
 
 	body{font-size:0.5em;}
@@ -52,13 +54,10 @@
 
 	ul.work-items li.last{margin-right:0px;}
 	ul.work-items li:nth-child(even){margin-right:0px;}
-
-	
-	aside.sidebar{display:none;}
 }
 
 
-/* 1. Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 569px){
 
 	#about .life-stats{
@@ -114,19 +113,8 @@
 	
 	ul.work-items li{float:none;margin:0 auto !important;margin-bottom:20px !important;}
 	
-	
-	#contact .contact-form input#name,
-	#contact .contact-form input#email{
-		width:100%;
-	}
-
-
 	#progress-bar-container{display:none;}
 	.social-icons.floating{display:none;}
-	.instagram-button{display:none;}
-	.instagram{display:none;}
-
-	aside.sidebar{display:none;}
 
 	article h1.blog-title{font-size:3em;}
 	article h2.blog-title{font-size:2.5em;}
@@ -139,25 +127,3 @@
 		position:relative;
 	}
 }
-
-
-
-/*
-
-@media only screen and (max-width: 1169px){
-	#about #progress-bar-container{display:none !important;position:absolute;left:9999px;}
-
-}
-@media only screen and (max-width: 869px){
-
-	#header .tweet-speech{display:none !important;left:9999px;}
-}
-*/
-	
-/*
-	.social-icons.floating{display:none;}
-	.instagram-button{display:none;}
-	.instagram{display:none;}
-*/
-
-

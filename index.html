@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Tom Claus Freelance WebDeveloper</title>         
-    <meta name="description" content="CroqMedia - Tom Claus ">
-    <meta name="author" content="Tom Claus">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Some default required metatags... -->
+    <title>Tom Claus Freelance Webdeveloper</title>         
+    <meta name="description" content="CroqMedia is a one-man company by Tom Claus specialized in front-end development and social media powered websites">
+    <meta name="viewport" content="width=device-width">
 
     <!-- Facebook OG tags -->
     <meta property="fb:app_id" content="476094755769847"/>
     <meta property="og:site_name" content="CroqMedia - TomClaus">
-    <meta property="og:title" content="Tom Claus Freelance Developer">
+    <meta property="og:title" content="Tom Claus Freelance Webdeveloper">
     <meta property="og:description" content="CroqMedia is a one-man company by Tom Claus specialized in front-end development and social media powered websites.">
     <meta property="og:image" content="http://tomclaus.be/images/avatar300.png">
     <meta property="og:type" content="website">
@@ -21,7 +20,7 @@
     
     <!-- Twitter Card tags -->
     <meta property="twitter:site_name" content="CroqMedia - TomClaus">
-    <meta property="twitter:title" content="Tom Claus Freelance Developer">
+    <meta property="twitter:title" content="Tom Claus Freelance Webdeveloper">
     <meta property="twitter:description" content="CroqMedia is a one-man company by Tom Claus specialized in front-end development and social media powered websites.">
     <meta property="twitter:image" content="http://tomclaus.be/images/avatar114.png">
     <meta property="twitter:card" content="summary">
@@ -51,6 +50,7 @@
 </head>
 <body>
 
+    <!-- My social network links -->
     <ul class="social-icons header ">
         <li class="twitter"><a target="_blank" href="http://twitter.com/tomclaus">Twitter</a></li>
         <li class="linkedin"><a target="_blank" href="http://linkd.in/tomclaus">LinkedIn</a></li>
@@ -60,6 +60,7 @@
         <li class="rss"><a target="_blank" href="http://tomclaus.be/feed/">RSS</a></li>
     </ul>
                 
+    <!-- Header with navigation -->
     <header id="header">
         <div class="constraint">
             <section class="branding">
@@ -73,7 +74,6 @@
                     Are you looking for someone? <a href="#contact">Contact me!</a>
                 </h2> 
             </section>
-                
             <nav id="navigation">
                 <ul>
                     <li class="link-about avatar-wink first"><a href="#about">About</a></li>
@@ -85,7 +85,8 @@
             </nav>
         </div>
     </header>
-                        
+                  
+    <!-- About Section -->      
     <section id="about">    
         <div class="constraint">
             <h2 class="title">About</h2>
@@ -135,7 +136,8 @@
             </div>
         </div>  
     </section>
-        
+    
+    <!-- My work & Client's section -->
     <section id="work"> 
         <div class="constraint">
             <h2 class="title">Work</h2> 
@@ -170,6 +172,7 @@
         </div>  
     </section>
     
+    <!-- My playground projects -->
     <section id="play"> 
         <div class="constraint">
             <h2 class="title">Playground</h2>
@@ -203,12 +206,13 @@
             </ul>
         </div>
     </section>
-        
+    
+    <!-- Contact me section -->
     <section id="contact">
         <div class="constraint">
             <h2 class="title">Contact</h2>
             <p class="subtitle">Get in touch!</p>
-
+            
             <div class="contact-wrap" >
                 <div class="columns">
                     <p>
@@ -227,7 +231,6 @@
                         BIC: KREDBEBB
                     </p>
                 </div>
-
                 <span class="button-holder">
                     <span class="button-shadow">
                         <a href="mailto:mail@tomclaus.be" class="button">Send Message</a>
@@ -236,8 +239,8 @@
             </div>
         </div>          
     </section>
-
-                        
+    
+    <!-- Footer with again my social network links -->
     <footer id="footer">
         <ul class="social-icons">
             <li class="twitter"><a target="_blank" href="http://twitter.com/tomclaus">Twitter</a></li>
@@ -249,9 +252,25 @@
         </ul>
         <p class="copyright">CroqMedia — Tom Claus Freelance WebDeveloper &copy; 2012-2013</p>
     </footer>
-        
+
+    <!-- Javascript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/time-calculator.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-3065969-24']);
+        _gaq.push(['_setDomainName', 'tomclaus.be']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); 
+                ga.type = 'text/javascript'; 
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; 
+                gs.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 </body>
 </html>

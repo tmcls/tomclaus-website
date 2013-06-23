@@ -9,6 +9,9 @@
 #contact .contact-wrap .callme {
 	display: none;
 }
+#contact .contact-wrap .mailme {
+	display: inline-block;
+}
 
 /* Tablet landscape / low resolution */
 @media only screen and (min-width: 870px) and (max-width: 1170px){
@@ -40,7 +43,7 @@
 @media only screen and (min-width: 570px) and (max-width: 869px){
 
 	#contact .contact-wrap .callme {
-		display: block;
+		display: inline-block;
 	}
 
 	body{font-size:0.5em;}
@@ -67,6 +70,14 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 569px){
+
+	#contact .contact-wrap .mailme {
+		display: none;
+	}
+	#contact .contact-wrap .callme {
+		display: inline-block;
+	}
+
 
 	#about .life-stats{
 		display:none;

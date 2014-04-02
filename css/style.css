@@ -16,6 +16,13 @@ section, article, header, footer, nav, aside, hgroup{
 	zoom:1;
 }
 
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+
 /* Navigation */
 #header #navigation{
 	position:relative;
@@ -542,10 +549,13 @@ ul.image-gallery li{
 	margin:0 auto;
 }
 #contact .columns p{
-	width:255px;
+	width:397.5px;
 	margin-left: 30px;
 	float: left;
 	text-align: left;
+}
+#contact .columns p.right{
+	text-align: right;
 }
 #contact .contact-wrap .button-holder{
 	position:relative;

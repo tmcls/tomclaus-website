@@ -1,5 +1,0 @@
-web1:
-  name: TomClaus S01
-  php_display_errors: "0"
-  php_date_timezone: Europe/Brussels
-  php_default_locale: "nl_NL"

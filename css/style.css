@@ -1,8 +1,6 @@
 /* 
-	Website Name: Claws - Tom Claus	
-	Website URL: http://tomclaus.be - http://claws.be;
-	Author: Tom Claus
-	Author URI: http://tomclaus.be
+	Website Name: Tom Claus	
+	Website URL: http://tomclaus.be;
 	Version: 1.0
 */
 
@@ -14,13 +12,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 section, article, header, footer, nav, aside, hgroup{
 	display:block;
 	zoom:1;
-}
-
-.right {
-	text-align: right;
-}
-.left {
-	text-align: left;
 }
 
 /* Navigation */
@@ -188,289 +179,12 @@ p.subtitle a{
 	font-weight:500;
 }
 
-/* About */
-#about h2.title{
-	margin-top:45px;
-}
-.about-me-description{
-	text-align:left;
-	margin:0 0 120px 0;
-	overflow:hidden;
-}
-.about-me-description p{
-	line-height:1.8em;
-	color:#666;
-}
-#about .skill-chart{
-	margin:0 0 120px 50px;
-	width:355px;
-	height:355px;
-	float:right;
-	opacity:0.4;
-	filter:alpha(opacity=40);
-	transition:all 0.2s;
-	-moz-transition:all 0.3s;
-	-webkit-transition:all 0.3s;
-	position:relative;
-}
-#about .skill-chart:hover{
-	opacity:1;
-	filter:alpha(opacity=100);
-}
-#about .skill-chart img{
-	width:100%;
-	height:100%;
-	display:block;
-}
-#about .skill-chart .skill-label{
-	text-align:center;
-	text-transform:uppercase;
-	font-weight:700;
-	font-size:2em;
-	display:block;
-	height:100%;
-	width:100%;
-	line-height:355px;
-	position:absolute;
-	color:#999;
-}
-#about #progress-bar-container{
-	clear:both;
-	position:relative;
-	margin:0 auto 100px auto;
-	width:100%;
-}
-#about #progress-bar-container .birth,
-#about #progress-bar-container .present{
-	width:60px;
-	height:60px;
-	border:8px solid #ccc;
-	border-radius:1000px;
-	-moz-border-radius:1000px;
-	-webkit-border-radius:1000px;
-	position:absolute;
-	top:-33px;
-	font-weight:700;
-	font-size:1.6em;
-	color:#aaa;
-	text-indent:-9999px;
-	overflow:hidden;
-	line-height:60px;
-	z-index:500;
-}
-#about #progress-bar-container .birth:hover,
-#about #progress-bar-container .present:hover{
-	background:#fff;
-	text-indent:0px;
-}
-#about #progress-bar-container .birth{
-	left:0px;
-	background:url(../images/icon-baby.png) no-repeat center center #fff;
-}
-#about #progress-bar-container .present{
-	right:0px;
-	background:url(../images/icon-present.png) no-repeat center center #fff;
-}
-#about .progress-key{
-	overflow:hidden;
-	width:300px;
-	padding:3px;
-	margin:0 auto 65px auto;
-	background:url(../images/grunge-bg-2.png) #ccc;
-	background:url(../images/grunge-bg-2.png) rgba(230,230,230,0.9);
-	border-radius:100px;
-	-moz-border-radius:100px;
-	-webkit-border-radius:100px;
-}
-#about .progress-key li{
-	list-style:none;
-	float:left;
-	width:115px;
-	padding:10px 0;
-	font-size:1.3em;
-	font-weight:600;
-}
-#about .progress-key li.bototm{
-	text-align:right;
-	padding-right:30px;
-	background:url(../images/pin-black.png) no-repeat right center;
-	margin-right:5px;
-}
-#about .progress-key li.top{
-	text-align:left;
-	padding-left:30px;
-	background:url(../images/pin-red.png) no-repeat left center;
-	margin-left:5px;
-}
-#about .progress-bar{
-	position:relative;
-	width:0px;
-	height:15px;
-	border-radius:100px;
-	-moz-border-radius:100px;
-	-webkit-border-radius:100px;
-	background:#CCC;
-	margin:0 auto;
-	overflow:visible;
-	z-index:600;
-}
-#about .progress{
-	/*background:#cf0000;*/
-	width:100%;
-	height:10px;
-	border-radius:100px;
-	-moz-border-radius:100px;
-	-webkit-border-radius:100px;
-}
-#about .progress-bar .notes{
-	position:absolute;
-	width:0px;
-	height:100%;
-	top:0px;
-	left:0px;
-	margin:0px;
-	padding:0px;
-	z-index:1100;
-}
-#about .progress-bar .notes li{
-	position:absolute;
-	width:27px;
-	height:39px;
-	overflow:visible;
-	padding:20px 2px 2px 2px;
-	margin:0px;
-	list-style:none;
-
-}
-#about .progress-bar .notes li:hover{
-
-}
-#about .progress-bar .knotch.top,
-#about .progress-bar .knotch.bottom{
-	position:absolute;
-	width:16px;
-	height:8px;
-	text-indent:-9999px;
-}
-#about .progress-bar .knotch.top{
-	background:url(../images/icon-knotch-top.png) no-repeat;
-	top:-8px;
-}
-#about .progress-bar .knotch.bottom{
-	background:url(../images/icon-knotch-bottom.png) no-repeat;
-	top:15px;
-}
-#about .progress-bar .notes li.top{
-	background:url(../images/icon-pin-down.png) no-repeat center top;
-	top:-55px;
-}
-#about .progress-bar .notes li.bottom{
-	top:30px;
-	background:url(../images/icon-pin-up.png) no-repeat center top;
-}
-#about .progress-bar .notes li .caption{
-	padding:10px;
-	width:200px;
-	background:#333;
-	position:absolute;
-	z-index:500;
-	display:none;
-	border-radius:4px;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	box-shadow:0px 2px 2px rgba(0,0,0,0.07);
-	-moz-box-shadow:0px 2px 2px rgba(0,0,0,0.07);
-	-webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.07);
-	text-align:left;
-}
-#about .progress-bar .notes li .caption h4{
-	font-weight:600;
-	margin:0 0 5px 0;
-	font-size:1.4em;
-	text-align:left;
-	color:#fff;
-}
-#about .progress-bar .notes li .caption p{
-	font-size:1.2em;
-	color:#fff;
-	text-shadow:none;
-	margin:0px;
-}
-#about .progress-bar .notes li.bottom .caption .arrow{
-	border-color:transparent transparent #333 transparent;
-	border-style:solid;
-	border-width:5px;
-	height:0;
-	width:0;
-	position:absolute;
-	top:-10px;
-	left:17px;
-}
-#about .progress-bar .notes li.top .caption .arrow{
-	border-color:#333 transparent transparent transparent;
-	border-style:solid;
-	border-width:5px;
-	height:0;
-	width:0;
-	position:absolute;
-	bottom:-10px;
-	left:17px;
-}
-#about .progress-bar .notes li.top .caption{
-	top:-30px;
-	left:-7px;
-	padding-bottom:10px;
-}
-#about .progress-bar .notes li.bottom .caption{
-	top:50px;
-	left:-7px;
-	padding-top:10px;
-	
-}
-#about .progress-bar .notes li .caption .date{
-	display:none;
-}
-#about .progress-bar .notes li .caption h4 span{
-	color:#999;
-}
-#about .life-stats{
-	clear:both;
-	padding:0 0 50px 0;
-}
-#about .life-stats p{
-	margin:0px;
-	padding:0px;
-	line-height:1em;
-}
-#about .life-stats .days{
-	float:left;
-	text-align:left;
-}
-#about .life-stats .percentage{
-	float:right;
-	text-align:right
-}
-#about .life-stats .days,
-#about .life-stats .percentage{
-	color:#ccc;
-	width:50%;
-	font-weight:700;
-	font-size:3em;
-	letter-spacing:-0.04em;
-}
-#about .life-stats .days span,
-#about .life-stats .percentage span{
-	color:#e9573f;
-}
-
 
 /* Work */
-ul.work-items,
-ul.image-gallery{
+ul.work-items{
 	overflow:hidden;
 }
-ul.work-items li,
-ul.image-gallery li{
+ul.work-items li{
 	padding:3px;
 	background:#fff;
 	margin:0 30px 30px 0;
@@ -483,28 +197,24 @@ ul.image-gallery li{
 	-webkit-border-radius:3px;
 	position: relative;
 }
-ul.work-items li:hover,
-ul.image-gallery li:hover{
+ul.work-items li:hover{
 	background:#e9573f;
 	border:1px solid #e9573f;
 	transition:all 0.2s;
 	-moz-transition:all 0.2s;
 	-webkit-transition:all 0.2s;
 }
-ul.work-items li:hover span,
-ul.image-gallery li:hover span{
+ul.work-items li:hover span{
 	background: #e9573f;
 	transition:all 0.2s;
 	-moz-transition:all 0.2s;
 	-webkit-transition:all 0.2s;
 	color: #FFF;
 }
-ul.work-items li.last,
-ul.image-gallery li.last{
+ul.work-items li.last{
 	margin-right:0px;
 }
-ul.work-items li img,
-ul.image-gallery li img{
+ul.work-items li img{
 	padding:0px;
 	width:100%;
 	background:#fafafa;
@@ -517,8 +227,7 @@ ul.image-gallery li img{
 	-webkit-border-radius:2px;
 }
 
-ul.work-items li span,
-ul.image-gallery li span{
+ul.work-items li span{
 	position: absolute;
 	padding:3px 0 6px;
 	width:100%;
@@ -529,13 +238,6 @@ ul.image-gallery li span{
 	display:block;
 	bottom: 0;
 	left: 0;
-}
-
-ul.image-gallery{
-	margin:4em 0 1em 0;
-}
-ul.image-gallery li{
-	width:255px;
 }
 
 /* Contact */
@@ -588,31 +290,12 @@ ul.image-gallery li{
 #footer .social-icons li a{
 	text-indent:9999px;
 }
-#footer .addthis_toolbox{
-	margin:0 auto;
-	text-align:center;
-}
-#footer .addthis_toolbox < a{
-	float:none !important;
-}
 #footer .copyright{
 	font-size:1.2em;
 	font-weight:600;
 	font-style:italic;
 	color:#999;
 } 
-#footer .abitgood-icon{
-	opacity:0.4;
-	filter:alpha(opacity=40);
-	transition:all 0.1s;
-	-moz-transition:all 0.1s;
-	-webkit-transition:all 0.1s;
-}
-#footer .abitgood-icon:hover{
-	opacity:1;
-	filter:alpha(opacity=100);
-}
-
 
 /* - 0.0. - GLOBAL
 ---------------------------------------------- */
@@ -676,24 +359,7 @@ body{
 .social-icons li.linkedin a{
 	background: url(../images/icon-linkedin.png) center center no-repeat #1378bd;
 }
-.social-icons li.skype a{
-	background: url(../images/icon-skype.png) center center no-repeat #4bc6f0;
-}
-.social-icons li.rss a{
-	background: url(../images/icon-rss.png) center center no-repeat #f99f41;
-}
-.social-icons li.vimeo a{
-	background: url(../images/icon-vimeo.png) center center no-repeat #ef3b35
-}
-.social-icons li.instagram2 a{
-	background: url(../images/icon-instagram-2.png) center center no-repeat #a77c5d;
-}
-.social-icons li.facebook a{
-	background: url(../images/icon-facebook.png) center center no-repeat #4a6ea9;
-}
-.social-icons li.googleplus a{
-	background: url(../images/icon-googleplus.png) center center no-repeat #de4b39;
-}
+
 
 /* - 0.0. - TYPOGRAPHY
 ------------------------------------------ */

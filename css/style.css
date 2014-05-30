@@ -314,7 +314,7 @@ body{
 	margin:0 auto;
 }
 .social-icons{
-	overflow:hidden;
+	/*overflow:hidden;*/
 }
 .social-icons.header li{
 	float:left;
@@ -358,6 +358,10 @@ body{
 }
 .social-icons li.linkedin a{
 	background: url(../images/icon-linkedin.png) center center no-repeat #1378bd;
+}
+.social-icons li.large{
+	width: auto;
+	margin-top: -3px;
 }
 
 

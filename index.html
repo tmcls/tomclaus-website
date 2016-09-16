@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+header("X-job-1: ##################################");
+header("X-job-2: ##  I'm looking for a new job!  ##");
+header("X-job-3: ##################################");
+
+header_remove("X-Powered-By");
+header_remove("Server");
+
+?><!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +25,7 @@
     <meta property="og:site_name" content="Tom Claus">
     <meta property="og:title" content="Ik ben een freelance Front-end Developer">
     <meta property="og:description" content="Ik ben Tom Claus, een freelance front-end developer met een focus op innoverende projecten en prototypes.">
-    <meta property="og:image" content="http://tomclaus.be/images/avatar300.png">
+    <meta property="og:image" content="https://tomclaus.be/images/avatar300.png">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card tags -->
@@ -26,7 +34,7 @@
     <meta name="twitter:title" content="Tom Claus">
     <meta name="twitter:description" content="Ik ben Tom Claus, een freelance front-end developer met een focus op innoverende projecten en prototypes.">
     <meta name="twitter:creator" content="@tomclaus">
-    <meta name="twitter:image:src" content="http://tomclaus.be/images/avatar144.png">
+    <meta name="twitter:image:src" content="https://tomclaus.be/images/avatar144.png">
     <meta name="twitter:domain" content="tomclaus.be">
 
     <!-- Favicon and Mobile icons -->
@@ -37,7 +45,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/avatar144.png" />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://tomclaus.be"/>
+    <link rel="canonical" href="https://tomclaus.be"/>
 
     <!-- Style -->
     <style>
@@ -689,7 +697,7 @@
 
 
         /**
-         *  http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300italic,600italic,400,600,700,800
+         *  https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300italic,600italic,400,600,700,800
          */
 
         /* cyrillic-ext */
@@ -697,7 +705,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 400;
-          src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+          src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
           unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
         }
         /* cyrillic */
@@ -705,7 +713,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 400;
-          src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5UYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+          src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5UYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
           unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
         /* devanagari */
@@ -713,7 +721,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 400;
-          src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/ttwNtsRpgsxVmgGGmiUOEoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+          src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/ttwNtsRpgsxVmgGGmiUOEoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
           unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
         }
         /* greek-ext */
@@ -721,7 +729,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 400;
-          src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+          src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
           unicode-range: U+1F00-1FFF;
         }
         /* greek */
@@ -729,7 +737,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 400;
-          src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+          src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
           unicode-range: U+0370-03FF;
         }
         /* vietnamese */
@@ -737,7 +745,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 400;
-          src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEEYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+          src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEEYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
           unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
         }
         /* latin-ext */
@@ -745,7 +753,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 400;
-          src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+          src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
           unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
         /* latin */
@@ -753,7 +761,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 400;
-          src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+          src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
         /* cyrillic-ext */
@@ -761,7 +769,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 600;
-          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSg7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
+          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSg7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
           unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
         }
         /* cyrillic */
@@ -769,7 +777,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 600;
-          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
+          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
           unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
         /* devanagari */
@@ -777,7 +785,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 600;
-          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSiGUML8f7tzeB6gGvgki0bE.woff2) format('woff2');
+          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSiGUML8f7tzeB6gGvgki0bE.woff2) format('woff2');
           unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
         }
         /* greek-ext */
@@ -785,7 +793,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 600;
-          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSp6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
+          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSp6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
           unicode-range: U+1F00-1FFF;
         }
         /* greek */
@@ -793,7 +801,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 600;
-          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSvy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
+          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSvy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
           unicode-range: U+0370-03FF;
         }
         /* vietnamese */
@@ -801,7 +809,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 600;
-          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSvgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
+          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSvgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
           unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
         }
         /* latin-ext */
@@ -809,7 +817,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 600;
-          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSojoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSojoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
           unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
         /* latin */
@@ -817,7 +825,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 600;
-          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+          src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
         /* cyrillic-ext */
@@ -825,7 +833,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 700;
-          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzA7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
+          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzA7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
           unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
         }
         /* cyrillic */
@@ -833,7 +841,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 700;
-          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
+          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
           unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
         /* devanagari */
@@ -841,7 +849,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 700;
-          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzCGUML8f7tzeB6gGvgki0bE.woff2) format('woff2');
+          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzCGUML8f7tzeB6gGvgki0bE.woff2) format('woff2');
           unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
         }
         /* greek-ext */
@@ -849,7 +857,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 700;
-          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzJ6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
+          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzJ6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
           unicode-range: U+1F00-1FFF;
         }
         /* greek */
@@ -857,7 +865,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 700;
-          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzPy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
+          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzPy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
           unicode-range: U+0370-03FF;
         }
         /* vietnamese */
@@ -865,7 +873,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 700;
-          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzPgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
+          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzPgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
           unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
         }
         /* latin-ext */
@@ -873,7 +881,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 700;
-          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzIjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzIjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
           unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
         /* latin */
@@ -881,7 +889,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 700;
-          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+          src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
         /* cyrillic-ext */
@@ -889,7 +897,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 800;
-          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hg7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
+          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hg7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
           unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
         }
         /* cyrillic */
@@ -897,7 +905,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 800;
-          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hhdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
+          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hhdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
           unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
         /* devanagari */
@@ -905,7 +913,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 800;
-          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hiGUML8f7tzeB6gGvgki0bE.woff2) format('woff2');
+          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hiGUML8f7tzeB6gGvgki0bE.woff2) format('woff2');
           unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
         }
         /* greek-ext */
@@ -913,7 +921,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 800;
-          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hp6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
+          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hp6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
           unicode-range: U+1F00-1FFF;
         }
         /* greek */
@@ -921,7 +929,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 800;
-          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hvy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
+          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hvy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
           unicode-range: U+0370-03FF;
         }
         /* vietnamese */
@@ -929,7 +937,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 800;
-          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hvgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
+          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hvgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
           unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
         }
         /* latin-ext */
@@ -937,7 +945,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 800;
-          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hojoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hojoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
           unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
         /* latin */
@@ -945,7 +953,7 @@
           font-family: 'Open Sans';
           font-style: normal;
           font-weight: 800;
-          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hhampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+          src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hhampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
         /* cyrillic-ext */
@@ -953,7 +961,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 300;
-          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxkExlR2MysFCBK8OirNw2kM.woff2) format('woff2');
+          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxkExlR2MysFCBK8OirNw2kM.woff2) format('woff2');
           unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
         }
         /* cyrillic */
@@ -961,7 +969,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 300;
-          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxmdsm03krrxlabhmVQFB99s.woff2) format('woff2');
+          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxmdsm03krrxlabhmVQFB99s.woff2) format('woff2');
           unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
         /* devanagari */
@@ -969,7 +977,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 300;
-          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxmL7gfUuvpSx2m1LFFgjvxY.woff2) format('woff2');
+          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxmL7gfUuvpSx2m1LFFgjvxY.woff2) format('woff2');
           unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
         }
         /* greek-ext */
@@ -977,7 +985,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 300;
-          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxiJ0caWjaSBdV-xZbEgst_k.woff2) format('woff2');
+          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxiJ0caWjaSBdV-xZbEgst_k.woff2) format('woff2');
           unicode-range: U+1F00-1FFF;
         }
         /* greek */
@@ -985,7 +993,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 300;
-          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxmMSHb9EAJwuSzGfuRChQzQ.woff2) format('woff2');
+          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxmMSHb9EAJwuSzGfuRChQzQ.woff2) format('woff2');
           unicode-range: U+0370-03FF;
         }
         /* vietnamese */
@@ -993,7 +1001,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 300;
-          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxupRBTtN4E2_qSPBnw6AgMc.woff2) format('woff2');
+          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxupRBTtN4E2_qSPBnw6AgMc.woff2) format('woff2');
           unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
         }
         /* latin-ext */
@@ -1001,7 +1009,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 300;
-          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxtDnm4qiMZlH5rhYv_7LI2Y.woff2) format('woff2');
+          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxtDnm4qiMZlH5rhYv_7LI2Y.woff2) format('woff2');
           unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
         /* latin */
@@ -1009,7 +1017,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 300;
-          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxtTIkQYohD4BpHvJ3NvbHoA.woff2) format('woff2');
+          src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxtTIkQYohD4BpHvJ3NvbHoA.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
         /* cyrillic-ext */
@@ -1017,7 +1025,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 400;
-          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBvZraR2Tg8w2lzm7kLNL0-w.woff2) format('woff2');
+          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBvZraR2Tg8w2lzm7kLNL0-w.woff2) format('woff2');
           unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
         }
         /* cyrillic */
@@ -1025,7 +1033,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 400;
-          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBl4sYYdJg5dU2qzJEVSuta0.woff2) format('woff2');
+          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBl4sYYdJg5dU2qzJEVSuta0.woff2) format('woff2');
           unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
         /* devanagari */
@@ -1033,7 +1041,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 400;
-          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBvkqa6bqz2MWWNAbes-nCbE.woff2) format('woff2');
+          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBvkqa6bqz2MWWNAbes-nCbE.woff2) format('woff2');
           unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
         }
         /* greek-ext */
@@ -1041,7 +1049,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 400;
-          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBlBW26QxpSj-_ZKm_xT4hWw.woff2) format('woff2');
+          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBlBW26QxpSj-_ZKm_xT4hWw.woff2) format('woff2');
           unicode-range: U+1F00-1FFF;
         }
         /* greek */
@@ -1049,7 +1057,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 400;
-          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBgt_Rm691LTebKfY2ZkKSmI.woff2) format('woff2');
+          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBgt_Rm691LTebKfY2ZkKSmI.woff2) format('woff2');
           unicode-range: U+0370-03FF;
         }
         /* vietnamese */
@@ -1057,7 +1065,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 400;
-          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBtDiNsR5a-9Oe_Ivpu8XWlY.woff2) format('woff2');
+          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBtDiNsR5a-9Oe_Ivpu8XWlY.woff2) format('woff2');
           unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
         }
         /* latin-ext */
@@ -1065,7 +1073,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 400;
-          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBqE8kM4xWR1_1bYURRojRGc.woff2) format('woff2');
+          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBqE8kM4xWR1_1bYURRojRGc.woff2) format('woff2');
           unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
         /* latin */
@@ -1073,7 +1081,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 400;
-          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+          src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
         /* cyrillic-ext */
@@ -1081,7 +1089,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 600;
-          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxjBFCZ8rkaaoOvHyaB4p1V8.woff2) format('woff2');
+          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxjBFCZ8rkaaoOvHyaB4p1V8.woff2) format('woff2');
           unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
         }
         /* cyrillic */
@@ -1089,7 +1097,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 600;
-          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxs2Ua5FNUHV5nolPhplIfzg.woff2) format('woff2');
+          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxs2Ua5FNUHV5nolPhplIfzg.woff2) format('woff2');
           unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
         /* devanagari */
@@ -1097,7 +1105,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 600;
-          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxpi-AbWve2FLUfK85dbEzsY.woff2) format('woff2');
+          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxpi-AbWve2FLUfK85dbEzsY.woff2) format('woff2');
           unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
         }
         /* greek-ext */
@@ -1105,7 +1113,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 600;
-          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxn1XrJsKtwhNaJmMXegB1eg.woff2) format('woff2');
+          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxn1XrJsKtwhNaJmMXegB1eg.woff2) format('woff2');
           unicode-range: U+1F00-1FFF;
         }
         /* greek */
@@ -1113,7 +1121,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 600;
-          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxtDawAUxQv-nqIa2sHgh1E4.woff2) format('woff2');
+          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxtDawAUxQv-nqIa2sHgh1E4.woff2) format('woff2');
           unicode-range: U+0370-03FF;
         }
         /* vietnamese */
@@ -1121,7 +1129,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 600;
-          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxo6uqQeO3rRcuZb4avK7jaw.woff2) format('woff2');
+          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxo6uqQeO3rRcuZb4avK7jaw.woff2) format('woff2');
           unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
         }
         /* latin-ext */
@@ -1129,7 +1137,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 600;
-          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxkWd5At5A4dPjoTcH8-WMxA.woff2) format('woff2');
+          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxkWd5At5A4dPjoTcH8-WMxA.woff2) format('woff2');
           unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
         /* latin */
@@ -1137,7 +1145,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 600;
-          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxsiAiQ_a33snTsJhwZvMEaI.woff2) format('woff2');
+          src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxsiAiQ_a33snTsJhwZvMEaI.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
         /* cyrillic-ext */
@@ -1145,7 +1153,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 700;
-          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxgXaAXup5mZlfK6xRLrhsco.woff2) format('woff2');
+          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxgXaAXup5mZlfK6xRLrhsco.woff2) format('woff2');
           unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
         }
         /* cyrillic */
@@ -1153,7 +1161,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 700;
-          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxlx-M1I1w5OMiqnVF8xBLhU.woff2) format('woff2');
+          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxlx-M1I1w5OMiqnVF8xBLhU.woff2) format('woff2');
           unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
         }
         /* devanagari */
@@ -1161,7 +1169,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 700;
-          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxqQr5kLUZ00oRH1V4iZRmWo.woff2) format('woff2');
+          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxqQr5kLUZ00oRH1V4iZRmWo.woff2) format('woff2');
           unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
         }
         /* greek-ext */
@@ -1169,7 +1177,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 700;
-          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxlT7aJLK6nKpn36IMwTcMMc.woff2) format('woff2');
+          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxlT7aJLK6nKpn36IMwTcMMc.woff2) format('woff2');
           unicode-range: U+1F00-1FFF;
         }
         /* greek */
@@ -1177,7 +1185,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 700;
-          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxgn6Wqxo-xwxilDXPU8chVU.woff2) format('woff2');
+          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxgn6Wqxo-xwxilDXPU8chVU.woff2) format('woff2');
           unicode-range: U+0370-03FF;
         }
         /* vietnamese */
@@ -1185,7 +1193,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 700;
-          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxsbIQSYZnWLaWC9QNCpTK_U.woff2) format('woff2');
+          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxsbIQSYZnWLaWC9QNCpTK_U.woff2) format('woff2');
           unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
         }
         /* latin-ext */
@@ -1193,7 +1201,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 700;
-          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxogd9OEPUCN3AdYW0e8tat4.woff2) format('woff2');
+          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxogd9OEPUCN3AdYW0e8tat4.woff2) format('woff2');
           unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
         /* latin */
@@ -1201,7 +1209,7 @@
           font-family: 'Open Sans';
           font-style: italic;
           font-weight: 700;
-          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxv79_ZuUxCigM2DespTnFaw.woff2) format('woff2');
+          src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxv79_ZuUxCigM2DespTnFaw.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
     </style>
@@ -1214,9 +1222,9 @@
 
     <!-- My social network links -->
     <ul class="social-icons header ">
-        <li class="facebook"><a target="_blank" href="http://facebook.com/claustom">Facebook</a></li>
+        <li class="facebook"><a target="_blank" href="https://facebook.com/claustom">Facebook</a></li>
         <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/claustom">LinkedIn</a></li>
-        <li class="twitter"><a target="_blank" href="http://twitter.com/tomclaus">Twitter</a></li>
+        <li class="twitter"><a target="_blank" href="https://twitter.com/tomclaus">Twitter</a></li>
     </ul>
 
     <!-- Header with navigation -->
@@ -1224,7 +1232,7 @@
         <div class="constraint">
             <section class="branding">
                 <span class="avatar avatar-cross">
-                    <a style="width:100%;height:100%;display:block;" href="http://tomclaus.be"></a>
+                    <a style="width:100%;height:100%;display:block;" href="https://tomclaus.be"></a>
                 </span>
 
                 <h1 class="introduction">Hoi,</h1>
@@ -1256,21 +1264,21 @@
 
             <ul class="work-items">
                 <li>
-                    <a target="_blank" href="http://www.hotelcitymap.be">
+                    <a target="_blank" href="https://www.hotelcitymap.be">
                         <img src="images/portfolio/hotelcitymap.jpg" width="262" height="230" 
                             alt="Hotel City Map" title="Hotel City Map" />
                         <span>Hotel City Map - Mobile &amp; Web Development</span>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="http://www.uniehasseltgenk.be">
+                    <a target="_blank" href="https://www.uniehasseltgenk.be">
                         <img src="images/portfolio/uniehasseltgenk.jpg" width="262" height="230" 
                             alt="Unie Hasselt-Genk" title="Unie Hasselt-Genk" />
                         <span>Unie Hasselt-Genk - MapBox Development</span>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="http://www.twitspark.com">
+                    <a target="_blank" href="https://www.twitspark.com">
                         <img src="images/portfolio/twitspark.png" width="262" height="230" 
                             alt="Twitspark Website" title="Twitspark" />
                         <span>Twitspark - Chrome Facebook Extensie</span>
@@ -1300,14 +1308,14 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="http://www.kukoo.com">
+                    <a target="_blank" href="https://www.kukoo.com">
                         <img src="images/portfolio/kukoo.png" width="262" height="230" 
                             alt="Kukoo" title="Kukoo" />
                         <span>Kukoo - Front-end Development</span>
                     </a>
                 </li>
                 <li class="last">
-                    <a target="_blank" href="http://www.studenttakeoff.be/">
+                    <a target="_blank" href="https://www.studenttakeoff.be/">
                         <img src="images/portfolio/studenttakeoff.png" width="262" height="230" 
                             alt="Student Take Off Website" title="Student Take Off" />
                         <span>Student Take Off - Design &amp; Front-end Development</span>
@@ -1316,7 +1324,7 @@
                 
 
                 <li>
-                    <a target="_blank" href="http://www.tweetforlife.be">
+                    <a target="_blank" href="https://www.tweetforlife.be">
                         <img src="images/portfolio/tweetforlife.png" width="262" height="230" 
                             alt="Tweet For Life" title="Tweet For Life" />
                         <span>TweeForLife - Social Media Integration</span>
@@ -1330,14 +1338,14 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="http://www.fesoulconversation.be">
+                    <a target="_blank" href="https://www.fesoulconversation.be">
                         <img src="images/portfolio/fe.png" width="262" height="230" 
                             alt="Fé. soul conversation" title="Fé. soul conversation" />
                         <span>Fé. soul conversation - Front End Development</span>
                     </a>
                 </li>
                 <li class="last">
-                    <a target="_blank" href="http://www.pigresults.com">
+                    <a target="_blank" href="https://www.pigresults.com">
                         <img src="images/portfolio/pigresults.png" width="262" height="230" 
                             alt="Pig results" title="Pig results" />
                         <span>Pigresults - Creative Concept</span>
@@ -1392,17 +1400,18 @@
     <!-- Footer, again my social network links -->
     <footer id="footer">
         <ul class="social-icons">
-            <li class="twitter"><a target="_blank" href="http://twitter.com/tomclaus">Twitter</a></li>
-            <li class="facebook"><a target="_blank" href="http://fb.com/claustom">Facebook</a></li>
+            <li class="twitter"><a target="_blank" href="https://twitter.com/tomclaus">Twitter</a></li>
+            <li class="facebook"><a target="_blank" href="https://fb.com/claustom">Facebook</a></li>
             <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/claustom">LinkedIn</a></li>
         </ul>
         <p class="copyright">Tom Claus &copy; 2012-2015</p>
     </footer>
-    
+
     <img src='https://www.linkedin.com/profile/view?id=AAIAAAEuqsYBBV9zyKhlgxL8MMJZLy3u49PlX50&authToken=zRgB&authType=name' />
+   
     
     <!-- Javascript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
